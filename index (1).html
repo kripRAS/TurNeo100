@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurNeo1000 – Золотое кольцо России</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TurNeo1000</h1>
+        <p>Путешествие по Золотому кольцу России</p>
+        <nav>
+            <ul>
+                <li><a href="#about">О маршруте</a></li>
+                <li><a href="#cities">Города</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#map">Карта</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#booking">Бронирование</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="fade-in">
+        <h2>О маршруте</h2>
+        <p>Золотое кольцо – это знаменитый маршрут по древним русским городам...</p>
+    </section>
+
+    <section id="cities" class="fade-in">
+        <h2>Города Золотого кольца</h2>
+        <div class="city"><h3>Сергиев Посад</h3><p>Знаменит Троице-Сергиевой Лаврой...</p></div>
+        <div class="city"><h3>Ярославль</h3><p>Город на Волге, основанный в 1010 году...</p></div>
+    </section>
+
+    <section id="gallery" class="fade-in">
+        <h2>Галерея</h2>
+        <div class="gallery-container">
+            <img src="img1.jpg" alt="Фото 1">
+            <img src="img2.jpg" alt="Фото 2">
+        </div>
+    </section>
+
+    <section id="map" class="fade-in"><h2>Карта маршрута</h2><div id="googleMap"></div></section>
+
+    <section id="reviews" class="fade-in">
+        <h2>Отзывы туристов</h2>
+        <div class="review"><img src="user1.jpg" alt="Анна"><p><strong>Анна:</strong> Великолепное путешествие!</p></div>
+        <div class="review"><img src="user2.jpg" alt="Иван"><p><strong>Иван:</strong> Отличная организация тура.</p></div>
+    </section>
+
+    <section id="booking" class="fade-in">
+        <h2>Бронирование тура</h2>
+        <form id="booking-form">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Отправить заявку</button>
+        </form>
+    </section>
+
+    <footer><p>&copy; 2025 TurNeo1000. Все права защищены.</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
